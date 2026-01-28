@@ -12,7 +12,7 @@ load_dotenv()
 # -------------------------------
 # 1. Load PDF
 # -------------------------------
-pdf_path = "C:/Users/sachi/Downloads/Sachin Gusain Resume January.pdf"   # <-- your PDF
+pdf_path = "<path of your pdf>"   # <-- your PDF
 loader = PyPDFLoader(pdf_path)
 documents = loader.load()
 
